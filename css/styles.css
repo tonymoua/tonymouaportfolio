@@ -1,0 +1,251 @@
+nav{
+    
+}
+
+img.tony{
+    width: 50%;
+    height: 50%;
+    padding-top: 1em;
+    display: block;
+    margin: 0 auto;
+}
+li{
+    float: left;
+    padding: 1;
+    padding-right: 3em;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: normal;
+    color: #3a3a3a;
+}
+
+body{
+    line-height: 1.6;
+    display: block;
+}
+
+ul{
+    letter-spacing: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+    
+}
+
+header {
+    padding: 2em 2em 2em .5em;
+    border-bottom: 0.1em solid rgba(0,0,0,0.2);
+    font-family: "", sans-serif;
+    font-size: .90em;
+    font-weight: lighter;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+a:link{
+    color: #3a3a3a;
+}
+a:hover{
+    color: #EE4938;
+    transition: color .3s ease-out;
+}
+
+a:vistied{
+    color: #3a3a3a;
+}
+
+/*H*/
+h4, h1{
+    font-family: "", sans-serif;
+    font-weight: lighter;
+    padding-bottom: .50em;
+    display: block;
+    font-size: 1.667em;
+    line-height: 1.25em;   
+    color: #3a3a3a;
+    border-bottom: 0.1em solid rgba(0,0,0,0.2);
+    letter-spacing: .06em;
+    text-align: center;
+}
+
+
+
+p.tony-intro{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: 300;
+    font-color: #3a3a3a;
+
+}
+
+
+.content{
+    margin: 0 auto;
+    width: 75%;
+}
+
+footer{
+    padding: 2em 2em 2em .5em;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: 300;
+    font-color: #3a3a3a;
+    border-top: 0.1em solid rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+pun{
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    color: #EE4938;
+}
+
+/*Resume*/
+
+h2.name{
+    font-family: "", sans-serif;
+    font-weight: lighter;
+    padding-bottom: .10em;
+    display: block;
+    font-size: 1.667em;
+    line-height: 1.25em;   
+    color: #3a3a3a;
+    text-align: center;
+}
+
+h3.name{
+    font-family: "", sans-serif;
+    font-weight: lighter;
+    padding-bottom: .10em;
+    display: block;
+    font-size: 1.667em;
+    line-height: 1.25em;   
+    letter-spacing: .025em;
+    text-decoration: underline;
+    color: #3a3a3a;
+    text-align: center;
+}
+
+
+p.address{
+    text-align: center;
+    font-weight: normal;
+    font-color: #3a3a3a;
+    font-size: .90em;
+}
+
+p{
+    text-align: center;
+    font-weight: normal;
+    font-color: #3a3a3a;
+    font-size: .90em;
+}
+}
+
+/*
+contact.html
+by  Alex Devero - codepen.io
+*/
+
+h1.contact{
+    padding-top: .5em;
+    font-weight: 400;
+    font-color: #3a3a3a;
+    border: none;
+}
+
+/*Typography*/
+html {font: 16px 'Open sans', sans-serif;}
+form label {font-size: .9em;}
+
+/* Base */
+{
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Form */
+form {
+  margin: 2% auto;
+  padding: 1em;
+  width: 320px;
+  color: #aaa;
+  border: .1em solid #ddd;
+  border-radius: $radius;
+}
+.name {width: 100%;}
+.name input,
+.submit input,
+select,
+textarea {
+  width: 47%;
+  height: 3em;
+  text-indent: .5em;
+  border: .1em solid #ddd;
+  border-radius: $radius;
+  outline-color: #EE4938;
+}
+.name input[name="lname"] {float: right;}
+.name input[type="mail"] {
+  margin-top: 1em;
+  width: 100%;
+}
+
+.message,
+.submit {
+    margin-top: 1em;
+}
+.message textarea,
+.submit input {
+    width: 100%;
+}
+
+.message textarea{
+    height: 8em;
+}
+
+.submit input {
+  display: block;
+  margin: auto;
+  width: 99.5%;
+  background: #EE4938;
+  color: #fff;
+  border: 0;
+  border-bottom: $radius solid darken(#EE4938, 7%);
+  font-size: 1em;
+  font-weight: bold;
+ 
+}
+
+/*img*/
+div.img {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
