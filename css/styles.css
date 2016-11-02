@@ -235,17 +235,7 @@ textarea {
 }
 
 /*img*/
-div.img {
-    margin: 5px;
-    float: left;
-    width: 180px;
-}
 
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
+.container .portfolio-item {
+    margin-bottom: 25px;
 }
